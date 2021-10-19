@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    font-family: Arial;
+}
+
 .container{
     margin-top: 30px;
     display: grid;
@@ -50,7 +54,6 @@
     text-align: center;
     line-height: 23px;
     font-size: 20px;
-    font-family: Arial;
     color: #2F4F4F;
 }
 
@@ -58,7 +61,6 @@
     font-size: 18px;
     text-align: center;
     width: 100%;
-    font-family: Arial;
     margin-top: 9px;
     display: none;
 }
@@ -76,7 +78,6 @@
     min-height: 250px;
     position: relative;
     z-index: 10;
-
     border-radius: 10px;
     background-color: #EEEEEE;
     transform: scale(1.2);
