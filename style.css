@@ -81,7 +81,7 @@ body{
     border-radius: 10px;
     background-color: #EEEEEE;
     transform: scale(1.2);
-    transition:transform 1s ease-in-out 1s;
+    transition:transform 1s ease-in-out 1s, background-color 1s ease-in-out;
 }
 
 @media screen and (min-width: 500px) and (max-width: 750px){
