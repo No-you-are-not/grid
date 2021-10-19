@@ -11,8 +11,12 @@
 }
 
 .person{
+    padding: 10px;
     text-align: center;
     width: 200px;
+    transform: scale(1);
+    transition: transform 1s ease-in-out 1s;
+    min-height: 230px;
 }
 
 .person-number{
@@ -24,8 +28,7 @@
     width: 200px;
     border-radius: 50%;
     cursor: pointer;
-    transform: scale(1);
-    transition: border-radius 0s ease-in-out 1s, transform 0s ease-in-out 1s;
+    transition: border-radius 1s ease-in-out 1s;
 }
 
 .number{
@@ -70,9 +73,10 @@
 }
 
 .person:hover{
+    min-height: 250px;
     position: relative;
     z-index: 10;
-    padding: 10px;
+
     border-radius: 10px;
     background-color: #EEEEEE;
     transform: scale(1.2);
@@ -94,11 +98,13 @@
 @media screen and (min-width: 1001px) and (max-width: 1500px){
     .container{
         grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(4,240px);
     }
 }
 
 @media screen and (min-width: 1501px){
     .container{
     grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(4,240px);
     }
 }
